@@ -89,10 +89,10 @@ function App() {
       </div>
           {
             selectedCity && 
-            <h1>You selected {selectedCountry}, <span style={{fontSize:'20px', color:"grey"}}>{selectedState}, {selectedCity} </span> </h1>
+            <h1>You selected {selectedCity}, {selectedState}, {selectedCountry}</h1>
           }
     </div>
   );
-}
+} 
 
 export default App;
